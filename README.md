@@ -37,12 +37,14 @@ Model_evaluation.py
 결과
 
 1) 사람이 만든 코드 입력 prediction:0.0031438772566616535
+
 Enter new code: print("Hello World")
 1/1 ━━━━━━━━━━━━━━━━━━━━ 1s 660ms/step
 Prediction (1: ChatGPT, 0: Human): 0.0031438772566616535
 
 
 2) Chatgpt가 만든 코드 입력 prediction:0.019221099093556404
+
 Enter new code: def isMatch(s: str, p: str) -> bool:
     m, n = len(s), len(p)
     
@@ -66,6 +68,7 @@ Prediction (1: ChatGPT, 0: Human): 0.019221099093556404
 
 
 3) Chatgpt가 만든 코드 입력 prediction: 0.01140505913645029
+
 Enter new code: def isMatch(s: str, p: str) -> bool:
     m, n = len(s), len(p)
     dp = [[False] * (n + 1) for _ in range(m + 1)]
@@ -91,6 +94,7 @@ Prediction (1: ChatGPT, 0: Human): 0.01140505913645029
 
 
 4) 사람이 만든 코드 입력 prediction : 0.009712227620184422
+
 Enter new code: class Solution:
     def romanToInt(self, s: str) -> int:
         m = {
